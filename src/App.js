@@ -4,7 +4,7 @@ import expenses from './data.json';
 function App() {
 
   return (
-    <div className="bg-cream flex flex-col pt-[67px] pb-[66px] md:py-0 md:pt-0 md:justify-center items-center h-screen">
+    <main role="main" className="bg-cream flex flex-col pt-[67px] pb-[66px] md:py-0 md:pt-0 md:justify-center items-center h-screen">
       <div className="w-full px-4 md:w-[540px]">
         
         <div className="flex justify-between bg-soft-red mb-4 md:mb-6 rounded-mobile md:rounded-desktop py-5 px-5 md:px-8 md:py-[25px]">
@@ -44,7 +44,7 @@ function App() {
         Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank" rel="noreferrer">Frontend Mentor</a>. 
         Coded by <a className="text-soft-red" href="https://semajprimm.com">Semaj Primm</a>.
       </div>
-    </div>
+    </main>
   );
 }
 
